@@ -1,0 +1,34 @@
+Arguments: 
+  /Users/tsegen/.nvm/versions/node/v16.20.0/bin/node /usr/local/bin/yarn add -D nodemon ts-node typescript @types/node
+
+PATH: 
+  /Users/tsegen/.rvm/gems/ruby-2.7.6/bin:/Users/tsegen/.rvm/gems/ruby-2.7.6@global/bin:/Users/tsegen/.rvm/rubies/ruby-2.7.6/bin:/opt/homebrew/opt/mongodb-community@5.0/bin:/Users/tsegen/.nvm/versions/node/v16.20.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/tsegen/Library/Application Support/JetBrains/Toolbox/scripts:/Users/tsegen/Library/Android/sdk/emulator:/Users/tsegen/Library/Android/sdk/platform-tools:/Users/tsegen/.rvm/bin:/Users/tsegen/Library/Android/sdk/emulator:/Users/tsegen/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "hng-stage1-task",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Xavier577/hng-stage1-task.git",
+    "author": "Joseph Tsegen <tsegstech10@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
